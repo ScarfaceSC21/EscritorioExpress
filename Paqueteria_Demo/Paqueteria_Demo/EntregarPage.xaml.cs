@@ -1,15 +1,17 @@
 using Newtonsoft.Json;
+using Paqueteria_Demo.Models;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace Paqueteria_Demo;
 
 public partial class EntregarPage : ContentPage
 {
-	public EntregarPage()
+    public EntregarPage()
 	{
 		InitializeComponent();
-	}
+    }
 
     public class PaqueteAPI
     {
@@ -24,7 +26,7 @@ public partial class EntregarPage : ContentPage
     {
         string cajon = lblBuscar.Text;
         var request = new HttpRequestMessage();
-        request.RequestUri = new Uri("http://paqueteria.somee.com/api/Paquete/Obtener/"+cajon);
+        request.RequestUri = new Uri("http://paqueteria.somee.com/api/Paquete/Obtener/" + cajon);
         request.Method = HttpMethod.Get;
         request.Headers.Add("Accept", "application/json");
         var client = new HttpClient();
@@ -35,5 +37,6 @@ public partial class EntregarPage : ContentPage
             var resultado = JsonConvert.DeserializeObject<List<PaqueteAPI>>(content);
             ListDemo.ItemsSource = resultado;
         }
+
     }
 }

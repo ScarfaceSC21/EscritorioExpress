@@ -8,51 +8,51 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Paqueteria_Demo
-build_property.ProjectDir = c:\Users\Uriel\Documents\GitHub\EscritorioExpress\Paqueteria_Demo\Paqueteria_Demo\
+build_property.ProjectDir = C:\Users\Uriel\Documents\GitHub\EscritorioExpress\Paqueteria_Demo\Paqueteria_Demo\
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/App.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/AppShell.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/BarcodeScannerPage.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/BarcodeScannerPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.BarcodeScannerPage.xaml
 build_metadata.AdditionalFiles.TargetPath = BarcodeScannerPage.xaml
 build_metadata.AdditionalFiles.RelativePath = BarcodeScannerPage.xaml
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/EntregarPage.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/EntregarPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.EntregarPage.xaml
 build_metadata.AdditionalFiles.TargetPath = EntregarPage.xaml
 build_metadata.AdditionalFiles.RelativePath = EntregarPage.xaml
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/MainPage.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/RegisterPage.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/Resources/Styles/Colors.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[c:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/Resources/Styles/Styles.xaml]
+[C:/Users/Uriel/Documents/GitHub/EscritorioExpress/Paqueteria_Demo/Paqueteria_Demo/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Paqueteria_Demo.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -42,14 +42,48 @@
 
                     </Frame>
 
-                    <ListView x:Name="ListDemo">
+                    <!--<ListView x:Name="ListDemo">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <TextCell Text="{Binding nombre}" Detail="{Binding tipo}"/>
                             </DataTemplate>
                         </ListView.ItemTemplate>
-                    </ListView>
+                    </ListView>-->
 
+                    <CollectionView x:Name="ListDemo">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame CornerRadius="20" Margin="10" Padding="10">
+                                    <Grid HeightRequest="100">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width=".5*"/>
+                                            <ColumnDefinition Width=".7*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height=".5*"/>
+                                            <RowDefinition Height=".5*"/>
+                                            <RowDefinition Height=".5*"/>
+                                        </Grid.RowDefinitions>
+                                        <Label  Grid.Column="0"
+                                                Grid.RowSpan="2"
+                                                FontAttributes="Bold"
+                                                FontSize="Large"
+                                                Text="{Binding nombre}" />
+                                        <Label  Grid.Column="1"
+                                                FontAttributes="Bold"
+                                                FontSize="Large"
+                                                Text="{Binding tipo}" />
+                                        <Label  Grid.Column="1"
+                                                Grid.Row="2"
+                                                FontAttributes="Bold"
+                                                FontSize="Large"
+                                                Text="{Binding precio, StringFormat='{0:C}'}" />
+                                    </Grid>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    
                 </VerticalStackLayout>
             </Frame>
         </VerticalStackLayout>

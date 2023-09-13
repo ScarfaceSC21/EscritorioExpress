@@ -26953,11 +26953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Uriel\\Documents\\Paqueteria_Demo\\Paqueteria_Demo\\Paqueteria_Demo.csproj",
+      "projectUniqueName": "C:\\Users\\Uriel\\Documents\\GitHub\\EscritorioExpress\\Paqueteria_Demo\\Paqueteria_Demo\\Paqueteria_Demo.csproj",
       "projectName": "Paqueteria_Demo",
-      "projectPath": "C:\\Users\\Uriel\\Documents\\Paqueteria_Demo\\Paqueteria_Demo\\Paqueteria_Demo.csproj",
+      "projectPath": "C:\\Users\\Uriel\\Documents\\GitHub\\EscritorioExpress\\Paqueteria_Demo\\Paqueteria_Demo\\Paqueteria_Demo.csproj",
       "packagesPath": "C:\\Users\\Uriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Uriel\\Documents\\Paqueteria_Demo\\Paqueteria_Demo\\obj\\",
+      "outputPath": "C:\\Users\\Uriel\\Documents\\GitHub\\EscritorioExpress\\Paqueteria_Demo\\Paqueteria_Demo\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
