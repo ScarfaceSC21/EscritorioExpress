@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paqueteria_Demo.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout BackgroundColor="#FEE6B8" >
+        <Frame CornerRadius="20" Padding="15" Margin="20">
+            <Image Source="logoescritorio.png" HeightRequest="80"/>
+        </Frame>
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Frame CornerRadius="20"
+               VerticalOptions="Fill"
+               Margin="20,10,20,20"
+               HasShadow="False">
+                <StackLayout >
+                    <Label Text="Entrega de paquetes"
+                       HorizontalOptions="Center"
+                       FontSize="30"
+                       TextColor="#c52f2f"
+                       FontAttributes="Bold"/>
+                    <ImageButton Source="deliveryinhand.png"
+                             x:Name="ib_entrega"
+                             Clicked="ib_entrega_Clicked"
+                             HeightRequest="200" />
+                    <Line BackgroundColor="Black" />
+                    <Label Text="Escanear paquetes"
+                       HorizontalOptions="Center" 
+                       FontSize="30"
+                       TextColor="#c52f2f"
+                       FontAttributes="Bold"/>
+                    <ImageButton Source="scan.png"
+                             x:Name="ib_escaner"
+                             Clicked="ib_escaner_Clicked"
+                             HeightRequest="200" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

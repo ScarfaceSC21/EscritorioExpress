@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paqueteria_Demo.EntregarPage"
+             Title="EntregarPage"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#FEE6B8" VerticalOptions="FillAndExpand">
+            <Frame CornerRadius="20" Padding="15" Margin="20">
+                <Image Source="logoescritorio.png" HeightRequest="80"/>
+            </Frame>
+
+            <Frame CornerRadius="20"
+               VerticalOptions="FillAndExpand"
+               Margin="20,10,20,20"
+               HasShadow="False"
+               BackgroundColor="#F0E094">
+                <VerticalStackLayout >
+
+                    <Frame CornerRadius="20" Margin="10" Padding="10">
+                        <Grid >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="60" />
+                            </Grid.ColumnDefinitions>
+
+                            <Entry Grid.Column="0"
+                                   x:Name="lblBuscar"
+                                   Placeholder="Numero de cajon"
+                                   PlaceholderColor="#C52F2F"
+                                   TextColor="#C52F2F"
+                                   Keyboard="Numeric" 
+                                   HorizontalOptions="Fill"/>
+
+                            <ImageButton Grid.Column="1"
+                                         x:Name="btnBuscar"
+                                         Source="buscar.png"
+                                         WidthRequest="60"
+                                         HeightRequest="33"
+                                         Clicked="btnBuscar_Clicked"/>
+                        </Grid>
+
+                    </Frame>
+
+                    <ListView x:Name="ListDemo">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding nombre}" Detail="{Binding tipo}"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

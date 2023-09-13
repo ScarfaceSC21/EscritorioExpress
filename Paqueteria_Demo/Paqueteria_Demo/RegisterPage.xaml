@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paqueteria_Demo.RegisterPage"
+             Title="RegisterPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#FEE6B8" VerticalOptions="FillAndExpand">
+            <Frame CornerRadius="20" Padding="15" Margin="20">
+                <Image Source="logoescritorio.png" HeightRequest="80"/>
+            </Frame>
+
+            <Frame CornerRadius="20"
+               VerticalOptions="FillAndExpand"
+               Margin="20,10,20,20"
+               HasShadow="False"
+               BackgroundColor="#F0E094">
+                <VerticalStackLayout >
+                    <Frame CornerRadius="20" Margin="10" Padding="10">
+                        <Entry Placeholder="Numero de cajon"
+                               x:Name="lblCajon"
+                           PlaceholderColor="#C52F2F"
+                           TextColor="#C52F2F"
+                           Keyboard="Numeric"
+                           HorizontalOptions="Fill" />
+                    </Frame>
+
+                    <Frame CornerRadius="20" Margin="10" Padding="10">
+                        <Grid >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="60" />
+                            </Grid.ColumnDefinitions>
+
+                            <Entry Grid.Column="0"
+                                   Text=""
+                                   x:Name="lblCode"
+                                   Placeholder="Numero de tracking"
+                                   PlaceholderColor="#C52F2F"
+                                   TextColor="#C52F2F"
+                                   Keyboard="Text" 
+                                   HorizontalOptions="Fill"/>
+
+                            <ImageButton Grid.Column="1"
+                                         Source="scan.png"
+                                         WidthRequest="60"
+                                         HeightRequest="33"
+                                         Clicked="LanzaScanner"/>
+                        </Grid>
+
+                    </Frame>
+
+                    <Frame CornerRadius="20" Margin="10" Padding="10">
+
+                        <Entry Placeholder="Nombre del propietario"
+                               x:Name="lblNombre"
+                               PlaceholderColor="#C52F2F"
+                               TextColor="#C52F2F"
+                               Keyboard="Text"
+                               HorizontalOptions="Fill"/>
+                    </Frame>
+
+                    <Frame CornerRadius="20" Margin="10" Padding="10">
+                        <Entry Placeholder="Tipo de paquete"
+                               x:Name="lblTipo"
+                               PlaceholderColor="#C52F2F"
+                               TextColor="#C52F2F"
+                               Keyboard="Text"
+                               HorizontalOptions="Fill"/>
+                    </Frame>
+
+                    <Frame CornerRadius="20" Margin="10" Padding="10">
+                        <Entry Placeholder="Precio del paquete"
+                               x:Name="lblPrecio"
+                               PlaceholderColor="#C52F2F"
+                               TextColor="#C52F2F"
+                               Keyboard="Numeric"
+                               HorizontalOptions="Fill"/>
+                    </Frame>
+
+                    <Button Text="Guardar Paquete"
+                            x:Name="btnGuardar"
+                            Clicked="btnGuardar_Clicked"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            BackgroundColor="#6b832a"
+                            CornerRadius="15"
+                            WidthRequest="200"
+                            HeightRequest="60"
+                            Margin="20"
+                            VerticalOptions="End"/>
+
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

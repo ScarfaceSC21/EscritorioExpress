@@ -1,0 +1,1 @@
+C:\Users\Uriel\Desktop\C Sharp\MAUI\Paqueteria_Demo\Paqueteria_Demo\Paqueteria_Demo.csproj;x64
